@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  cn.lsy.pipi.registry.PipiServiceRegistryAutoConfiguration,\
+  cn.lsy.pipi.discovery.PipiDiscoveryAutoConfiguration

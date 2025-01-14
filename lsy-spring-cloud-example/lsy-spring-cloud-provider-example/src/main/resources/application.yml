@@ -1,0 +1,15 @@
+server:
+  port: 30001
+
+spring:
+  application:
+    name: provider-application
+  cloud:
+    pipi:
+      discovery:
+        serverAddr: localhost:50001
+        service: ${spring.application.name}
+        port: ${server.port}
+    service-registry:
+      auto-registration:
+        enabled: true

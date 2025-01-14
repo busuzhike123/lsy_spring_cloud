@@ -1,0 +1,15 @@
+server:
+  port: 40001
+
+spring:
+  application:
+    name: pipi-consumer
+  cloud:
+    pipi:
+      discovery:
+        serverAddr: localhost:50001
+        service: pipi-consumer
+        port: 40001
+    service-registry:
+      auto-registration:
+        enabled: true

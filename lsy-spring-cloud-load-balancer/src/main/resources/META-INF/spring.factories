@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  cn.lsy.pipi.ribbon.config.RibbonAutoConfiguration,\
+    cn.lsy.pipi.ribbon.config.RibbonPipiAutoConfiguration
