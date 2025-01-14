@@ -40,6 +40,11 @@
         </dependency>
 
         <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>lsy-spring-cloud-pipi-openfeign</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-feign</artifactId>
             <version>1.4.7.RELEASE</version>
