@@ -20,6 +20,7 @@
         <module>lsy-spring-cloud-example</module>
         <module>lsy-spring-cloud-pipi-openfeign</module>
         <module>lsy-spring-cloud-load-balancer</module>
+        <module>lsy-spring-cloud-pipi-sentinel</module>
     </modules>
 
     <properties>
@@ -116,6 +117,14 @@
                 <groupId>com.netflix.zuul</groupId>
                 <artifactId>zuul-core</artifactId>
                 <version>${zuul.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>2.2.10-RC1</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>

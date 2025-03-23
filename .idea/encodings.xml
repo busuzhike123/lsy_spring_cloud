@@ -9,6 +9,7 @@
     <file url="file://$PROJECT_DIR$/lsy-spring-cloud-load-balancer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lsy-spring-cloud-pipi-discovery/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lsy-spring-cloud-pipi-openfeign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lsy-spring-cloud-pipi-sentinel/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

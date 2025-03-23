@@ -1,5 +1,6 @@
 package cn.lsy.pipi.openfeign;
 
+import cn.hutool.core.lang.Pair;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.FactoryBean;
 import org.springframework.cglib.proxy.Factory;

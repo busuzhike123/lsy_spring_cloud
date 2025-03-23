@@ -13,3 +13,21 @@ spring:
     service-registry:
       auto-registration:
         enabled: true
+    sentinel:
+      eager: true
+      transport:
+        dashboard: localhost:8080
+        port: 8720
+
+#management:
+#  endpoint:
+#    sentinel:
+#      enabled: true
+#  endpoints:
+#    web:
+#      exposure:
+#        include: '*'
+
+feign:
+  sentinel:
+    enabled: true # 激活S

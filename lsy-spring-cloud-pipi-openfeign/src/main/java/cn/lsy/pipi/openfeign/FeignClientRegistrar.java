@@ -17,7 +17,7 @@ public class FeignClientRegistrar implements ImportBeanDefinitionRegistrar {
         Set<Class<?>> classes = ClassUtil.scanPackageByAnnotation(packageName, FeignClient.class);
         for(Class<?> clazz : classes) {
             GenericBeanDefinition beanDefinition = new GenericBeanDefinition();
-            beanDefinition.setBeanClass();
+//            beanDefinition.setBeanClass();
         }
     }
 }

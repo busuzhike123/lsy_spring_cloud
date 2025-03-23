@@ -1,6 +1,7 @@
 package cn.lsy.pipi.consumer;
 
 import cn.lsy.pipi.discovery.PipiDiscoveryClient;
+import cn.lsy.pipi.openfeign.EnableFeignClients;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
